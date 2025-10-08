@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Sec_site</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <div class="brand">
+      <div class="logo">NM</div>
+      <div class="site-title">Нил — простой сайт</div>
+    </div>
+
+    <nav aria-label="Главное меню">
+      <a href="#home">Главная</a>
+      <a href="#about">Обо мне</a>
+      <a href="#projects">Проекты</a>
+      <a href="#contact">Контакты</a>
+    </nav>
+  </header>
+
+  <main id="home">
+    <h1>Добро пожаловать</h1>
+    <p>Это минимальный скелет сайта: шапка (header), основной блок (main) и подвал (footer).</p>
+
+    <section id="about" style="margin-top:18px;">
+      <h2>Обо мне</h2>
+      <p>Короткий абзац о себе. Замените текст и добавьте секции по необходимости.</p>
+    </section>
+  </main>
+
+  <footer>
+    © <span id="year"></span> Нил — все права защищены
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+
+</body>
+</html>
