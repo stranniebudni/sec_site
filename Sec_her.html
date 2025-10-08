@@ -3,12 +3,11 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Простой сайт — скелет</title>
+  <title>Sec_site</title>
   <link rel="stylesheet" href="Sec_him.css">
 </head>
 <body>
 
-  <!-- Шапка сайта -->
   <header>
     <div class="brand">
       <div class="logo">NM</div>
@@ -23,7 +22,6 @@
     </nav>
   </header>
 
-  <!-- Основной контент -->
   <main id="home">
     <h1>Добро пожаловать</h1>
     <p>Это минимальный скелет сайта: шапка (header), основной блок (main) и подвал (footer).</p>
@@ -34,12 +32,10 @@
     </section>
   </main>
 
-  <!-- Подвал -->
   <footer>
     © <span id="year"></span> Нил — все права защищены
   </footer>
 
-  <!-- Небольшой скрипт для актуального года -->
   <script>
     document.getElementById('year').textContent = new Date().getFullYear();
   </script>
